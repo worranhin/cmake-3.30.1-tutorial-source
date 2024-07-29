@@ -22,7 +22,7 @@ target_link_libraries(Tutorial PUBLIC MathFunctions)
 
 # TODO 4: Add MathFunctions to Tutorial's target_include_directories()
 # Hint: ${PROJECT_SOURCE_DIR} is a path to the project source. AKA This folder!
-target_include_directories(Tutorial PUBLIC "${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/MathFunct")
+target_include_directories(Tutorial PUBLIC "${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/MathFunctions")
 
 # add the binary tree to the search path for include files
 # so that we will find TutorialConfig.h
